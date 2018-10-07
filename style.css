@@ -1,0 +1,73 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+body > * {
+    margin: 0px auto;
+    max-width: 840px;
+}
+
+
+header {
+    position: relative;
+    margin-bottom: 120px;
+    max-width: 960px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(38, 75, 117);
+    color: rgb(255, 255, 255);
+}
+
+.CV {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+header img {
+    float: left;
+    margin: 20px 50px;
+}
+
+.name {
+    margin: 0px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+.contacts > div * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header div {
+    float: left;
+    text-align: left;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
